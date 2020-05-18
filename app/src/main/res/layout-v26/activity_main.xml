@@ -50,7 +50,6 @@
                 android:text="@string/business_description"
                 android:layout_below="@id/business_name"
                 android:padding="20dp"
-                android:layout_marginStart="20dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                 />
             <RelativeLayout
@@ -98,7 +97,7 @@
                     android:layout_marginStart="8dp"
                     />
             </RelativeLayout>
-
+            
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -113,7 +112,7 @@
                     android:background="@drawable/circle"
                     android:id="@+id/bullet3"
                     />
-
+            
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
