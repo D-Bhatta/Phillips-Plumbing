@@ -26,6 +26,7 @@
                 android:layout_alignParentTop="true"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/business_name"
+                android:tooltipText="@string/attribution_business_storefront"
                 android:src="@drawable/business_storefront" />
         </RelativeLayout>
         <RelativeLayout
@@ -41,6 +42,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/business_name"
                 android:padding="20dp"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -50,6 +53,7 @@
                 android:layout_below="@id/business_name"
                 android:padding="20dp"
                 android:layout_marginStart="20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -59,6 +63,7 @@
                 android:layout_below="@id/business_description"
                 android:padding="20dp"
                 android:layout_marginStart="20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -68,6 +73,7 @@
                 android:layout_below="@id/business_contact_email"
                 android:padding="20dp"
                 android:layout_marginStart="20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -77,6 +83,7 @@
                 android:layout_below="@id/business_contact_phone"
                 android:padding="20dp"
                 android:layout_marginStart="20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 />
 
         </RelativeLayout>
