@@ -24,8 +24,12 @@
                 android:layout_alignParentTop="true"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/business_name"
+                android:clickable="true"
+                android:longClickable="true"
+                android:contextClickable="true"
                 android:tooltipText="@string/attribution_business_storefront"
-                android:src="@drawable/business_storefront" />
+                android:src="@drawable/business_storefront"
+                android:focusable="true" />
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
