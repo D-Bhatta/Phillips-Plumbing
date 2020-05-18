@@ -3,7 +3,6 @@
 <ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbars="vertical"
-    android:background="@color/bg_color"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,8 +24,12 @@
                 android:layout_alignParentTop="true"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/business_name"
+                android:clickable="true"
+                android:longClickable="true"
+                android:contextClickable="true"
                 android:tooltipText="@string/attribution_business_storefront"
-                android:src="@drawable/business_storefront" />
+                android:src="@drawable/business_storefront"
+                android:focusable="true" />
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
@@ -51,7 +54,6 @@
                 android:text="@string/business_description"
                 android:layout_below="@id/business_name"
                 android:padding="20dp"
-                android:layout_marginStart="20dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                 />
             <RelativeLayout
@@ -99,7 +101,7 @@
                     android:layout_marginStart="8dp"
                     />
             </RelativeLayout>
-
+            
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -114,7 +116,7 @@
                     android:background="@drawable/circle"
                     android:id="@+id/bullet3"
                     />
-
+            
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
