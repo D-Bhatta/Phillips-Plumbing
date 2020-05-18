@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">Phillips Plumbing</string>
     <string name="business_name">business_name</string>
+    <string name="business_description">business_description</string>
     <string name="business_contact_email">business_contact_email</string>
     <string name="business_contact_phone">business_contact_phone</string>
     <string name="business_hours">business_hours</string>
-
+<!--Attributions-->
     <string name="attribution_business_storefront">Philips Plumbing" by mokolabs is licensed under CC BY-NC-ND 2.0 </string>
+
 </resources>
