@@ -18,8 +18,9 @@
             android:layout_alignParentTop="true"
             android:scaleType="fitStart"
             android:adjustViewBounds="true"
-            android:src="@drawable/business_storefront"
-            android:contentDescription="@string/business_name" />
+                android:src="@drawable/business_storefront"
+            android:contentDescription="@string/business_name"
+            />
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
